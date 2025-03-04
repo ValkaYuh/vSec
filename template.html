@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<script>
+		window.VTLOGGEDIN = false;
+      window.VTPRIVILEGES = [];
+      (function () {window.parent.postMessage('VTAUGMENT:READY', '*')})();
+	</script>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-7KT99XR32B"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-7KT99XR32B');
+	</script>
+	<style data-themed>
+		:root {
+			--theme-background-primary: #313338;
+			--theme-background-secondary: #949ba4;
+			--theme-foreground-primary: #ffffff;
+			--theme-borders: #4d6385;
+
+			--vt-red-500: #6162b6;
+			--vt-orange-500: #fc9929;
+			--vt-yellow-500: #fce967;
+			--vt-green-500: #22b573;
+			--vt-blue-500: #3a4eff;
+
+			--tab-padding: 1rem;
+		}
+
+		/* Reset vscode higlighting */
+	</style>
+	<link rel="stylesheet" href="https://storage.googleapis.com/vtcdn/vtaugment/styles-default.1680274512249.css" />
+</head>
+
+<body>
+	</header>
+	<section rel="report">
+		<div class="vt-report">
+			<div class="vt-summary vt-utils-shadowed-layer">
+				<div class="vt-summary__scoring">
+					<div class="vt-detections has-malicious">
+						<div class="vt-detections__circle ">
+							<div class="vt-detections__circle__positives">
+								<span class="highlighted-text">2</span>
+							</div>
+							<div class="vt-detections__circle__total">/ 88</div>
+						</div>
+						<svg id="circularProgressbar"
+							class="vt-detections__progressbar vt-detections__progressbar--malicious" height="100"
+							width="100" style="stroke-dasharray: 282.743; stroke-dashoffset: 276.317022727;">
+							<circle cx="50" cy="50" r="45" stroke-width="10" fill="transparent" />
+						</svg>
+					</div>
+				</div>
+				<div class="vt-summary__info">
+					<div class="vt-summary__info__title">
+						2 security vendors flagged this domain as malicious
+					</div>
+					<div class="vt-table__col--breakable"><a class="js-pivot vt-utils-pivot" data-pivot-key="search"
+							data-pivot-val="link goes here">virus.net</a></div>
+					<div class="vt-summary__info__list">
+						<div class="ellipsis vt-utils-mw-200">
+							<div class="vt-utils-bold">Malicious</div>
+							<a class="js-pivot vt-utils-pivot" data-pivot-key="search"
+								data-pivot-val='entity:amount of malicious'>INAMES CO., LTD.</a>
+						</div>
+						<div class="vt-summary__info__list__separator"></div>
+						<div>
+							<div class="vt-utils-bold">Suspicious</div>
+							<a class="js-pivot vt-utils-pivot" data-pivot-key="search"
+								data-pivot-val="entity:amount of suspicious">22 years ago</a>
+						</div>
+						<div class="vt-summary__info__list__separator"></div>
+						<div>
+							<div class="vt-utils-bold">Harmless</div>
+							<a class="js-pivot vt-utils-pivot" data-pivot-key="search"
+								data-pivot-val="entity:amount of harmless">9 months ago</a>
+						</div>
+						<div class="vt-summary__info__list__separator"></div>
+						<div>
+							<div class="vt-utils-bold">Undetected</div>
+							<a class="js-pivot vt-utils-pivot" data-pivot-key="search"
+								data-pivot-val="entity:amount of undetected">undetectedamount</a>
+						</div>
+					</div>
+				</div>
+				<hr>
